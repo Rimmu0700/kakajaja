@@ -1,0 +1,259 @@
+<mxfile host="65bd71144e">
+    <diagram id="Db7OJCisMnHbvPnB_t9w" name="Page-1">
+        <mxGraphModel dx="1658" dy="563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="6" value="Orangtua &amp;amp; Siswa" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-25" y="150" width="330" height="470" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;strokeWidth=5;" vertex="1" parent="6">
+                    <mxGeometry x="85" y="40" width="20" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="LOGIN" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="6">
+                    <mxGeometry x="67.5" y="80" width="55" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="" style="endArrow=classic;html=1;exitX=0.398;exitY=0.731;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="6" source="9" target="11">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="225" y="180" as="sourcePoint"/>
+                        <mxPoint x="275" y="130" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="13" value="DASHBORD" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="6">
+                    <mxGeometry x="60" y="130" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="memilih fitur" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="6">
+                    <mxGeometry x="150" y="205" width="85" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="6" source="11" target="13">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="265" y="240" as="sourcePoint"/>
+                        <mxPoint x="315" y="190" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="20" value="" style="endArrow=classic;html=1;exitX=0.917;exitY=0.989;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="6" source="15" target="58">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="105" y="110" as="sourcePoint"/>
+                        <mxPoint x="105" y="140" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="275" y="240"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="58" value="melihat mapel" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="6">
+                    <mxGeometry x="225" y="270" width="85" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="melihat absensi" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="6">
+                    <mxGeometry x="60" y="360" width="130" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" value="" style="endArrow=classic;html=1;exitX=0.373;exitY=1.021;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="6" source="58" target="19">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="100" y="319" as="sourcePoint"/>
+                        <mxPoint x="118" y="370" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="155" y="330"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="57" value="Melihat pengumuman" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="6">
+                    <mxGeometry x="60" y="290" width="85" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="6" source="15" target="57">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="160" y="245" as="sourcePoint"/>
+                        <mxPoint x="121" y="280" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="175" y="280"/>
+                            <mxPoint x="145" y="270"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="56" value="melihat pembayaran" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="6">
+                    <mxGeometry x="-45" y="290" width="85" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="6" source="15" target="56">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="160" y="235" as="sourcePoint"/>
+                        <mxPoint x="53" y="280" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="75" y="260"/>
+                            <mxPoint x="-15" y="220"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="55" value="melihatnilai" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="6">
+                    <mxGeometry x="225" y="370" width="85" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="6" source="58" target="55">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="75" y="340" as="sourcePoint"/>
+                        <mxPoint x="45" y="380" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="7" value="Guru" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="305" y="150" width="240" height="470" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="Menampilkan profil dashboard" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="7">
+                    <mxGeometry x="-55" y="125" width="85" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="dashboard" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="7">
+                    <mxGeometry x="87.5" y="125" width="85" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;strokeWidth=5;" vertex="1" parent="7">
+                    <mxGeometry x="120" y="40" width="20" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="LOGIN" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="7">
+                    <mxGeometry x="102.5" y="80" width="55" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="7" source="25" target="26">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="-185" y="60" as="sourcePoint"/>
+                        <mxPoint x="-185" y="90" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="32" value="melihat mapel" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="7">
+                    <mxGeometry x="45" y="190" width="85" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="7" source="21" target="14">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="-150" y="155" as="sourcePoint"/>
+                        <mxPoint x="-45" y="155" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="36" value="mengisi absen" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="7">
+                    <mxGeometry x="30" y="260" width="85" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="mengisi nilai siswa" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="7">
+                    <mxGeometry x="140" y="260" width="85" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="memilih fitur" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="7">
+                    <mxGeometry x="155" y="190" width="85" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="7" source="32" target="48">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="-55" y="260" as="sourcePoint"/>
+                        <mxPoint x="-5" y="210" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="50" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="7" source="48" target="37">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="140" y="220" as="sourcePoint"/>
+                        <mxPoint x="165" y="220" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="198" y="240"/>
+                            <mxPoint x="185" y="240"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="51" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="7" source="48" target="36">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="208" y="240" as="sourcePoint"/>
+                        <mxPoint x="193" y="270" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="175" y="240"/>
+                            <mxPoint x="73" y="240"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="64" value="nilai dan absen" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="7">
+                    <mxGeometry x="-15" y="420" width="85" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="" style="endArrow=classic;html=1;exitX=0.435;exitY=0.937;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="7" source="36" target="64">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="-53" y="320" as="sourcePoint"/>
+                        <mxPoint x="-103" y="470" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="66" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="7" source="37" target="64">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="77" y="307" as="sourcePoint"/>
+                        <mxPoint x="12" y="370" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="8" value="Admin sekolah" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+                    <mxGeometry x="545" y="150" width="240" height="450" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="LOGIN" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="8">
+                    <mxGeometry x="107.5" y="80" width="55" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;strokeWidth=5;" vertex="1" parent="8">
+                    <mxGeometry x="125" y="40" width="20" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.002;exitY=0.872;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="8" source="28" target="27">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="-100" y="60" as="sourcePoint"/>
+                        <mxPoint x="-100" y="90" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="31" value="menampilkan fitur" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="8">
+                    <mxGeometry x="92.5" y="130" width="85" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" value="menampilkan fitur" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="8">
+                    <mxGeometry x="65" y="220" width="85" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="13" target="14">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="170" y="260" as="sourcePoint"/>
+                        <mxPoint x="170" y="290" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="18" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="14" target="15">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="205" y="305" as="sourcePoint"/>
+                        <mxPoint x="270" y="305" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="293" y="375"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="35" value="" style="endArrow=classic;html=1;exitX=0.605;exitY=1.004;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="14">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="403" y="305" as="sourcePoint"/>
+                        <mxPoint x="350" y="360" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="301" y="360"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="68" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="55" target="64">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="402" y="477" as="sourcePoint"/>
+                        <mxPoint x="337" y="540" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="69" value="" style="endArrow=classic;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="19" target="64">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="165" y="560" as="sourcePoint"/>
+                        <mxPoint x="237" y="480" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="73" value="menampilkan nilai" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="150" y="660" width="85" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="74" value="menampilkan absensi" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="650" width="85" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="75" value="" style="endArrow=classic;html=1;exitX=0.335;exitY=1.018;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="64" target="74">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="143" y="560" as="sourcePoint"/>
+                        <mxPoint x="300" y="620" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="320" y="650"/>
+                            <mxPoint x="120" y="640"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="76" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="64" target="73">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="328" y="641" as="sourcePoint"/>
+                        <mxPoint x="133" y="670" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="330" y="660"/>
+                            <mxPoint x="240" y="660"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
